@@ -82,16 +82,17 @@
 							<li><a href="/#fh5co-hero">Beranda</a></li>
 							<li><a href="#tentang">Tentang</a></li>
 							<li><a href="/#produk">Produk</a></li>
-							<li><a href="/#pengembang">Pengembang</a></li>
 							<li><a href="/#kontak">Kontak</a></li>
 							<!-- ini halaman untuk login -->
 							@guest
+							<li><a href="/#pengembang">Pengembang</a></li>
 							<li><a href="/login">Login</a></li>
 							@endguest
 							@auth
-							<li>
-								<a href="/hitung">Perhitungan</a>
-							</li>
+							<li><a href="/hitung">Perhitungan</a></li>
+							@can('admin')
+							<li><a href="/user">User</a></li>
+							@endcan
 							<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
 							    @csrf
 							</form>
@@ -133,7 +134,7 @@
 				<div class="col-md-3">
 					<h4>Contact Information</h4>
 					<ul class="fh5co-footer-links">
-						<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
+						<li>Jl. Kasongan, Kajen, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta</li>
 						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
 						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
 						<li><a href="">gettemplates.co</a></li>

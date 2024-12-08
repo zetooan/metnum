@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PerhitunganController;
+use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('landing.home');
@@ -19,5 +20,8 @@ Route::group(['middleware' => ['web', 'guest']], function () {
 //auth
 Route::group(['middleware' => ['web', 'auth']], function () {
     Route::resource('hitung', PerhitunganController::class);
+    Route::group(['middleware' => ['can:admin']], function () {
+        Route::resource('user', UserController::class);
+    });
     Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 });
