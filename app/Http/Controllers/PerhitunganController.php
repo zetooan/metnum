@@ -51,9 +51,9 @@ class PerhitunganController extends Controller
         
         // Mendifinisikan augmented matrix
         $A = [
-            [2, 4, 4, $record['b1']],
-            [1, 2, 3, $record['b2']],
-            [2, 3, 4, $record['b3']],
+            [5, 7, 5, $record['b1']], // tanah liat
+            [1, 3, 2, $record['b2']], // perekat
+            [1, 1.5, 2, $record['b3']], // kayu bakar
         ];
 
         $n = count($A);
