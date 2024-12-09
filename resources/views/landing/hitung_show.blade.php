@@ -21,31 +21,31 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Bahan 1</td>
-                                <td>{{ $data->b1 }}</td>
+                                <td>Tanah Liat</td>
+                                <td>{{ $data->b1 }} Kg</td>
                             </tr>
                             <tr>
-                                <td>Bahan 2</td>
-                                <td>{{ $data->b2 }}</td>
+                                <td>Bahan Pengikat</td>
+                                <td>{{ $data->b2 }} Kg</td>
                             </tr>
                             <tr>
-                                <td>Bahan 3</td>
-                                <td>{{ $data->b3 }}</td>
+                                <td>Kayu Bakar</td>
+                                <td>{{ $data->b3 }} Kg</td>
                             </tr>
                             <tr>
                                 <td colspan="2" class="text-center">Jumlah Produk Yang Dihasilkan</td>
                             </tr>
                             <tr>
-                                <td>Produk 1</td>
-                                <td>{{ $data->p1 }}</td> <!-- Pastikan ini adalah kolom yang benar -->
+                                <td>Tungku</td>
+                                <td>{{ $data->p1 }} Buah</td> <!-- Pastikan ini adalah kolom yang benar -->
                             </tr>
                             <tr>
-                                <td>Produk 2</td>
-                                <td>{{ $data->p2 }}</td> <!-- Pastikan ini adalah kolom yang benar -->
+                                <td>Pot</td>
+                                <td>{{ $data->p2 }} Buah</td> <!-- Pastikan ini adalah kolom yang benar -->
                             </tr>
                             <tr>
-                                <td>Produk 3</td>
-                                <td>{{ $data->p3 }}</td> <!-- Pastikan ini adalah kolom yang benar -->
+                                <td>Guci</td>
+                                <td>{{ $data->p3 }} Buah</td> <!-- Pastikan ini adalah kolom yang benar -->
                             </tr>
                             <tr>
                                 <td colspan="2" class="text-center">{{ $data->comment }}</td>

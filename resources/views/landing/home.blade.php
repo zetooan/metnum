@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-5 col-md-push-1 animate-box" style="background-image: url({{ asset('landing/images/portfolio-1.jpg') }} ); min-height: 250px;">
+				<div class="col-md-5 col-md-push-1 animate-box" style="background-image: url({{ asset('landing/images/gb_reg.png') }} ); min-height: 250px;">
 				</div>
 				<div class="col-md-5 col-md-push-1 animate-box">
 					<h4>Gerabah Kasongan</h4>
@@ -40,28 +40,28 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4 text-center animate-box">
-					<a href="work-single.html" class="work"  style="background-image: url({{ asset('landing/images/portfolio-1.jpg') }} );">
+					<div class="work"  style="background-image: url({{ asset('landing/images/p1.jpg') }} );">
 						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
+							<h3>Tungku</h3>
+							<span>Gerabah</span>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="col-md-4 text-center animate-box">
-					<a href="work-single.html" class="work" style="background-image: url({{ asset('landing/images/portfolio-2.jpg') }} );">
+					<div class="work" style="background-image: url({{ asset('landing/images/p2.jpg') }} );">
 						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Brading</span>
+							<h3>Pot</h3>
+							<span>Gerabah</span>
 						</div>
-					</a>
+					</div>
 				</div>
 				<div class="col-md-4 text-center animate-box">
-					<a href="work-single.html" class="work" style="background-image: url({{ asset('landing/images/portfolio-3.jpg') }} );">
+					<div class="work" style="background-image: url({{ asset('landing/images/p3.jpg') }} );">
 						<div class="desc">
-							<h3>Project Name</h3>
-							<span>Illustration</span>
+							<h3>Guci</h3>
+							<span>Gerabah</span>
 						</div>
-					</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -74,31 +74,31 @@
 			</div>
 			<div class="row">
 	            <div class="col-md-6 team-member animate-box">
-	                <img src="{{ asset('landing/images/portfolio-1.jpg') }}" alt="Bumarlin" class="rounded-circle">
+	                <img src="{{ asset('landing/images/yumarlin1.jpg') }}" alt="Bumarlin" class="rounded-circle">
 	                <h4>Yumarlin MZ S.Kom., M.Pd., M.Kom.</h4>
-	                <p>Deskripsi singkat tentang Bumarlin. Pengembang yang berpengalaman dalam teknologi web.</p>
+	                <p>Dosen Pembimbing</p>
 	            </div>
 	            <div class="col-md-6 team-member animate-box">
-	                <img src="{{ asset('landing/images/portfolio-2.jpg') }}" alt="Narsum" class="rounded-circle">
-	                <h4>Narsum</h4>
-	                <p>Deskripsi singkat tentang Narsum. Ahli dalam pengembangan aplikasi mobile.</p>
+	                <img src="{{ asset('landing/images/Narsum.png') }}" alt="Narsum" class="rounded-circle">
+	                <h4>Satrio Bagas P</h4>
+	                <p>Narasumber</p>
 	            </div>
 	        </div>
 	        <div class="row">
 	            <div class="col-md-4 team-member animate-box">
-	                <img src="{{ asset('landing/images/portfolio-4.jpg') }}" alt="Diana" class="rounded-circle">
-	                <h4>Aden</h4>
-	                <p>Deskripsi singkat tentang Diana. Pengembang backend yang handal.</p>
+	                <img src="{{ asset('landing/images/aden.png') }}" alt="Diana" class="rounded-circle">
+	                <h4>Aden Bagas Carera</h4>
+	                <p>19330067</p>
 	            </div>
 	            <div class="col-md-4 team-member animate-box">
-	                <img src="{{ asset('landing/images/portfolio-5.jpg') }}" alt="Andi" class="rounded-circle">
-	                <h4>Adam</h4>
-	                <p>Deskripsi singkat tentang Andi. Ahli dalam pengembangan sistem dan database.</p>
+	                <img src="{{ asset('landing/images/adam.png') }}" alt="Andi" class="rounded-circle">
+	                <h4>Adam Nur Ardhi</h4>
+	                <p>23330038</p>
 	            </div>
 	            <div class="col-md-4 team-member animate-box">
-	                <img src="{{ asset('landing/images/portfolio-6.jpg') }}" alt="Siti" class="rounded-circle">
-	                <h4>Seto</h4>
-	                <p>Deskripsi singkat tentang Siti. Pengembang front-end yang kreatif.</p>
+	                <img src="{{ asset('landing/images/seto.jpeg') }}" alt="Siti" class="rounded-circle">
+	                <h4>Seto Andika N</h4>
+	                <p>21330004</p>
 	            </div>
 	        </div>
 		</div>
@@ -114,9 +114,7 @@
 					<h3>Our Address</h3>
 					<ul class="contact-info">
 						<li><i class="icon-location4"></i>Jl. Kasongan, Kajen, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta</li>
-						<li><i class="icon-phone3"></i>+ 1235 2355 98</li>
-						<li><i class="icon-location3"></i><a href="#">info@yoursite.com</a></li>
-						<li><i class="icon-globe2"></i><a href="#">www.yoursite.com</a></li>
+						<li><i class="icon-phone3"></i>+62 821-1110-3007</li>
 					</ul>
 				</div>
 				<div class="col-md-7 col-md-push-1 animate-box">

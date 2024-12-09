@@ -10,9 +10,6 @@
                 <p class="text-justify">
                 Metode numerik perhitungan gerabah adalah pendekatan matematis yang digunakan untuk menganalisis dan memprediksi sifat fisik serta perilaku material gerabah (keramik) selama proses pembentukan, pengeringan, dan pembakaran. Metode ini melibatkan penggunaan algoritma dan teknik komputasi untuk menyelesaikan persamaan yang menggambarkan fenomena fisik, seperti distribusi suhu, tekanan, dan deformasi pada material gerabah.
             </p>
-            <p class="text-center">
-                <a href="{{ route('hitung.create') }}" class="btn btn-primary">Mulai Perhitungan</a>
-            </p>
             <p class="text-justify">
                 Dalam praktiknya, metode numerik seperti elemen hingga (finite element method) atau metode beda hingga (finite difference method) sering digunakan untuk mensimulasikan proses-proses tersebut. Dengan menggunakan metode ini, para peneliti dan insinyur dapat mengoptimalkan desain produk gerabah, meminimalkan cacat, dan meningkatkan kualitas akhir produk. Selain itu, metode numerik juga memungkinkan analisis yang lebih mendalam terhadap interaksi antara berbagai parameter proses, sehingga memberikan wawasan yang lebih baik dalam pengembangan material keramik.
             </p>
@@ -22,16 +19,17 @@
         </div>
         <div class="row">
             <div class="col-md-10">
-                <h4 class="mb-4">Data Perhitungan Terakhir</h4>
+                <br><br>
                 <p class="text-right">
                     <a href="{{ route('hitung.create') }}" class="btn btn-primary">Mulai Perhitungan</a>
                 </p>
+                <h4 class="mb-4">Data Perhitungan Terakhir</h4>
                 <table class="table table-bordered table-striped">
                     <thead class="thead-dark">
                         <tr>
-                            <th>Bahan 1</th>
-                            <th>Bahan 2</th>
-                            <th>Bahan 3</th>
+                            <th>Tanah Liat</th>
+                            <th>Bahan Pengikat</th>
+                            <th>Kayu Bakar</th>
                             <th>Action</th>
                             <!-- Tambahkan header kolom sesuai kebutuhan -->
                         </tr>
@@ -44,9 +42,9 @@
                         @else
                             @foreach($data as $item)
                                 <tr>
-                                    <td>{{ $item->b1 }}</td>
-                                    <td>{{ $item->b2 }}</td>
-                                    <td>{{ $item->b3 }}</td>
+                                    <td>{{ $item->b1 }} Kg</td>
+                                    <td>{{ $item->b2 }} Kg</td>
+                                    <td>{{ $item->b3 }} Kg</td>
                                     <td align="center"><a href="{{ route('hitung.show', $item->id_up) }}" class="btn btn-info">Hasil</a></td>
                                 </tr>
                             @endforeach

@@ -116,18 +116,17 @@
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="row">
 				<div class="col-md-6 fh5co-widget">
-					<h4>About Neat</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h4>Gerabah Kasongan</h4>
+					<p>Kasongan dikenal sebagai pusat kerajinan gerabah yang kaya akan tradisi dan inovasi.</p>
 				</div>
 
 				<div class="col-md-3 col-md-push-1">
 					<h4>Links</h4>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Work</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">About us</a></li>
+						<li><a href="/#fh5co-hero">Beranda</a></li>
+						<li><a href="#tentang">Tentang</a></li>
+						<li><a href="/#produk">Produk</a></li>
+						<li><a href="/#kontak">Kontak</a></li>
 					</ul>
 				</div>
 
@@ -135,9 +134,7 @@
 					<h4>Contact Information</h4>
 					<ul class="fh5co-footer-links">
 						<li>Jl. Kasongan, Kajen, Bangunjiwo, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta</li>
-						<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-						<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-						<li><a href="">gettemplates.co</a></li>
+						<li>+62 821-1110-3007</li>
 					</ul>
 				</div>
 
@@ -146,16 +143,7 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Available at <a href="http://themewagon.com/" target="_blank">Themewagon</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-						</ul>
+						<small class="block">&copy; 2024 Universitas Janabadra</small>
 					</p>
 				</div>
 			</div>

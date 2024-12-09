@@ -14,7 +14,7 @@
                         <form method="POST" action="{{ route('hitung.store') }}"> 
                             @csrf
                             <div class="mb-3">
-                                <label for="b1" class="form-label">{{ __('Jumlah Bahan 1') }}</label>
+                                <label for="b1" class="form-label">{{ __('Jumlah Tanah Liat') }}</label>
                                 <input id="b1" type="number" class="form-control @error('b1') is-invalid @enderror" name="b1" value="{{ old('b1') }}" required autocomplete="b1" autofocus>
 
                                 @error('b1')
@@ -25,7 +25,7 @@
                             </div>
 
                             <div class="mb-3">
-                                <label for="b2" class="form-label">{{ __('Jumlah Bahan 2') }}</label>
+                                <label for="b2" class="form-label">{{ __('Jumlah Bahan Pengikat') }}</label>
                                 <input id="b2" type="number" class="form-control @error('b2') is-invalid @enderror" name="b2" value="{{ old('b2') }}" required autocomplete="b2">
 
                                 @error('b2')
@@ -36,9 +36,8 @@
                             </div>
 
                             <div class="mb-3">
-                                <label for="b3" class="form-label">{{ __('Jumlah Bahan 3') }}</label>
+                                <label for="b3" class="form-label">{{ __('Jumlah Kayu Bakar') }}</label>
                                 <input id="b3" type="number" class="form-control @error('b3') is-invalid @enderror" name="b3" value="{{ old('b3') }}" required autocomplete="b3">
-
                                 @error('b3')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
