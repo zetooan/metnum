@@ -21,9 +21,9 @@
             <div class="col-md-10">
                 <br><br>
                 <p class="text-right">
-                    <a href="{{ route('hitung.create') }}" class="btn btn-primary">Mulai Perhitungan</a>
+                    <a href="{{ route('hitung.create') }}" class="btn btn-primary">Mulai Estimasi</a>
                 </p>
-                <h4 class="mb-4">Data Perhitungan Terakhir</h4>
+                <h4 class="mb-4">Data Estimasi Terakhir</h4>
                 <table class="table table-bordered table-striped">
                     <thead class="thead-dark">
                         <tr>
@@ -44,7 +44,7 @@
                                 <tr>
                                     <td>{{ $item->b1 }} Kg</td>
                                     <td>{{ $item->b2 }} Kg</td>
-                                    <td>{{ $item->b3 }} Kg</td>
+                                    <td>{{ $item->b3 }} Ikat</td>
                                     <td align="center"><a href="{{ route('hitung.show', $item->id_up) }}" class="btn btn-info">Hasil</a></td>
                                 </tr>
                             @endforeach

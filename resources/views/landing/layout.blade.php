@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Gerabah Kasongan</title>
+	<title>Sari Siti Ceramic</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -75,7 +75,7 @@
 			<div class="top-menu">
 				<div class="row">
 					<div class="col-xs-4">
-						<div id="fh5co-logo"><a href="/">Gerabah Kasongan</a></div>
+						<div id="fh5co-logo"><a href="/">Sari Siti Ceramic</a></div>
 					</div>
 					<div class="col-xs-8 text-right menu-1">
 						<ul>
@@ -89,7 +89,7 @@
 							<li><a href="/login">Login</a></li>
 							@endguest
 							@auth
-							<li><a href="/hitung">Perhitungan</a></li>
+							<li><a href="/hitung">Estimasi</a></li>
 							@can('admin')
 							<li><a href="/user">User</a></li>
 							@endcan

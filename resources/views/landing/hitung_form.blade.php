@@ -47,7 +47,7 @@
                             <br>
                             <div class="mb-0 text-center">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Hitung') }}
+                                    {{ __('Estimasi') }}
                                 </button>
                             </div>
 

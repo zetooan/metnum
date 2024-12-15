@@ -30,7 +30,7 @@
                             </tr>
                             <tr>
                                 <td>Kayu Bakar</td>
-                                <td>{{ $data->b3 }} Kg</td>
+                                <td>{{ $data->b3 }} Ikat</td>
                             </tr>
                             <tr>
                                 <td colspan="2" class="text-center">Jumlah Produk Yang Dihasilkan</td>
