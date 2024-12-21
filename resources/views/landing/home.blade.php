@@ -91,7 +91,7 @@
 	                <p>19330067</p>
 	            </div>
 	            <div class="col-md-4 team-member animate-box">
-	                <img src="{{ asset('landing/images/adam.png') }}" alt="Andi" class="rounded-circle">
+	                <img src="{{ asset('landing/images/adam.jpg') }}" alt="Andi" class="rounded-circle">
 	                <h4>Adam Nur Ardhi</h4>
 	                <p>23330038</p>
 	            </div>

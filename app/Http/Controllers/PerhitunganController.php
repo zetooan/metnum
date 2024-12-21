@@ -102,7 +102,7 @@ class PerhitunganController extends Controller
         $record['p3'] = $solution[2];
 
         if ($record['p1'] < 0 || $record['p2'] < 0 || $record['p3'] < 0) {
-            $record['comment'] = 'untuk hasil produk yang bernilai negative sudah sesuai, tetapi karena ada bahan yang kurang dalam dalam proses produksi';
+            $record['comment'] = 'untuk hasil produk yang bernilai negative sudah sesuai, tetapi karena ada bahan yang kurang dalam proses produksi menghasilkan nilai negative';
         } 
 
         try {
